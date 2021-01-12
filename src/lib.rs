@@ -1,4 +1,4 @@
-    #[macro_use] extern crate rocket;
+    /* #[macro_use] extern crate rocket; */
     
     
 use rocket::State;
@@ -7,7 +7,7 @@ use rocket::State;
     use rocket::Request;
     use rocket::fairing::Info;
     use rocket::fairing::Fairing;
-    use rocket_contrib::json::{Json, JsonValue};
+    /* use rocket_contrib::json::{Json, JsonValue}; */
     use rocket::fairing::Kind;
     use rocket::http::{Method,Header,ContentType};
     use std::io::Cursor;
