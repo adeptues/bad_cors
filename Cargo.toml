@@ -3,7 +3,9 @@ name = "bad_cors"
 version = "0.1.0"
 authors = ["Thomas Helmkay <thomas.helmkay@e-healthinnovations.com>"]
 edition = "2018"
-
+description = "A terrible cors implementation for rocket"
+license = "MIT"
+license-file = "LICENSE"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
